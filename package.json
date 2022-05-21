@@ -59,7 +59,7 @@
     "single-spa-react": "^4.3.1"
   },
   "scripts": {
-    "start": "webpack serve",
+    "start": "NODE_ENV=development webpack serve",
     "build": "concurrently yarn:build:*",
     "test": "cross-env BABEL_ENV=test jest",
     "start:standalone": "webpack serve --env standalone",
